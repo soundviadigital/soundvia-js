@@ -1,0 +1,37 @@
+export { SoundviaClient, OAuthClient, buildAuthorizationUrl } from "./client.js";
+export type { SoundviaClientOptions, OAuthClientOptions, FromCodeOptions, FromTokenOptions, BuildAuthorizationUrlOptions } from "./client.js";
+export {
+  SoundviaError,
+  APIError,
+  AuthenticationError,
+  InsufficientScopeError,
+  NotFoundError,
+  RateLimitError,
+} from "./errors.js";
+export type {
+  AppLimits,
+  AppInfo,
+  StatusResult,
+  Track,
+  TrackListResult,
+  Release,
+  ReleaseListResult,
+  Artist,
+  ArtistProfileResult,
+  Playlist,
+  PlaylistListResult,
+  SearchResult,
+  OAuthToken,
+  UserProfile,
+  LibraryItemType,
+  LibraryItem,
+  LibraryCounts,
+  LibraryResult,
+  UserPlaylist,
+  UserPlaylistListResult,
+  PlayHistoryEntry,
+  PlayHistoryResult,
+  FollowsResult,
+  Notification,
+  NotificationsResult,
+} from "./models.js";
